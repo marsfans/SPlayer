@@ -26,4 +26,4 @@ RUN apk add --no-cache npm
 
 RUN npm install -g NeteaseCloudMusicApi
 
-CMD nginx
+CMD ['nginx']
